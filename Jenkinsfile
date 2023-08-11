@@ -6,7 +6,7 @@ pipeline{
    }
    
    stages {
-               stage ('install httpd') {
+              /* stage ('install httpd') {
 			   
 			   steps {
                            sh "yum install httpd -y"
@@ -24,7 +24,7 @@ pipeline{
 			   }
 			   
 			   }
-			   
+			*/   
 			   
                stage ('deploy httpd') {
 			   
